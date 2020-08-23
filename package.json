@@ -22,7 +22,10 @@
     "url": "https://extensionengine.com"
   },
   "main": "index.js",
-  "bin": {},
+  "bin": {
+    "report-extract": "extract.js",
+    "report-verify": "verify.js"
+  },
   "files": [
     "index.js",
     "extract.js",

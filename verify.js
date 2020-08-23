@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 'use strict';
 
 const forge = require('node-forge');
