@@ -33,7 +33,8 @@
   ],
   "scripts": {
     "docs": "documentation readme ./index.js --section=API",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "release": "npx np"
   },
   "dependencies": {
     "decompress": "^4.2.1",
