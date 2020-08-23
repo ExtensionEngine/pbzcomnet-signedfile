@@ -1,0 +1,58 @@
+{
+  "name": "@extensionengine/pbzcomnet-signedfile",
+  "version": "0.0.0",
+  "description": "Extract & verify PBZCOM@NET balance reports",
+  "keywords": [
+    "balance report",
+    "PBZCOM@NET",
+    "PBZ"
+  ],
+  "homepage": "https://github.com/ExtensionEngine/pbzcomnet-signedfile#readme",
+  "bugs": {
+    "url": "https://github.com/ExtensionEngine/pbzcomnet-signedfile/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ExtensionEngine/pbzcomnet-signedfile.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Extension Engine",
+    "email": "info@extensionengine.com",
+    "url": "https://extensionengine.com"
+  },
+  "main": "index.js",
+  "bin": {},
+  "files": [
+    "index.js",
+    "extract.js",
+    "verify.js"
+  ],
+  "scripts": {
+    "docs": "documentation readme ./index.js --section=API",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "decompress": "^4.2.1",
+    "elementtree": "^0.1.7",
+    "eslint-plugin-sort-imports-es6-autofix": "^0.5.0",
+    "node-forge": "^0.9.1"
+  },
+  "devDependencies": {
+    "@extensionengine/eslint-config": "^1.3.0",
+    "babel-eslint": "^10.1.0",
+    "documentation": "^13.0.2",
+    "eslint": "^7.7.0",
+    "eslint-config-semistandard": "^15.0.1",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-require-sort": "^1.2.2",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^6.2.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
