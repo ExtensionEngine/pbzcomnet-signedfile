@@ -16,17 +16,17 @@
 
 ## Installation
 
-    $ npm install @extensionengine/pbzcomnet-signedfile
+    npm install @extensionengine/pbzcomnet-signedfile
 
 ## CLI
 
 Extract report from signed XML envelope:
 
-    $ npx -p @extensionengine/pbzcomnet-signedfile report-extract <report>
+    npx -p @extensionengine/pbzcomnet-signedfile report-extract <report>
 
 Verify signed XML envelope containing balance report:
 
-    $ npx -p @extensionengine/pbzcomnet-signedfile report-verify <report>
+    npx -p @extensionengine/pbzcomnet-signedfile report-verify <report>
 
 ## API
 
