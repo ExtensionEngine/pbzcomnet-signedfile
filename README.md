@@ -6,7 +6,7 @@
 
 # @extensionengine/pbzcomnet-signedfile
 
-[![circleci build status](https://badgen.net/circleci/github/ExtensionEngine/pbzcomnet-signedfile/master?icon)](https://circleci.com/gh/ExtensionEngine/pbzcomnet-signedfile)
+[![circleci build status](https://badgen.net/circleci/github/ExtensionEngine/pbzcomnet-signedfile/master?icon)](https://app.circleci.com/pipelines/github/ExtensionEngine/pbzcomnet-signedfile?branch=master)
 [![install size](https://badgen.net/packagephobia/install/@extensionengine/pbzcomnet-signedfile)](https://packagephobia.now.sh/result?p=@extensionengine/pbzcomnet-signedfile)
 [![npm package version](https://badgen.net/npm/v/@extensionengine/pbzcomnet-signedfile)](https://npm.im/@extensionengine/pbzcomnet-signedfile)
 [![github license](https://badgen.net/github/license/ExtensionEngine/pbzcomnet-signedfile)](https://github.com/ExtensionEngine/pbzcomnet-signedfile/blob/master/LICENSE)
