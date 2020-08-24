@@ -21,7 +21,7 @@ module.exports = extract;
  */
 function extract(xmldoc) {
   const zippedFile = Buffer.from(findtext('./File', xmldoc), 'base64');
-  return unzip(zippedFile);
+  return decompress(zippedFile).then(([file]) => file.data);
 }
 
 if (require.main === module) {
@@ -56,13 +56,6 @@ if (require.main === module) {
       })
       .then(filepath => console.log('Payload extracted:', filepath));
   }());
-}
-
-function unzip(buffer) {
-  return decompress(buffer).then(files => {
-    const [file] = files;
-    return file.data;
-  });
 }
 
 function findtext(selector, xmldoc) {
