@@ -64,7 +64,7 @@ if (require.main === module) {
     const isVerified = verify(xmldoc);
 
     if (!isVerified) {
-      console.error('Error: Fail to verify:', sourcePath);
+      console.error('Error: Failed to verify:', sourcePath);
       process.exit(1);
     }
 

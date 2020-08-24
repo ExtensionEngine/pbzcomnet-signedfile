@@ -45,7 +45,7 @@ if (require.main === module) {
 
     extract(xmldoc)
       .catch(err => {
-        console.error('Error: Fail to extract:', sourcePath, err.stack);
+        console.error('Error: Failed to extract:', sourcePath, err.stack);
         process.exit(1);
       })
       .then(payload => {
