@@ -53,9 +53,10 @@ Extract balance report from signed XML envelope
 
 ```javascript
 const { extract, parse } = require('@extensionengine/pbzcomnet-signedfile');
+const path = require('path');
 const { readFileSync } = require('fs');
 
-const xml = readFileSync('./reports/1110779471-20200721.rtf.sgn', 'utf-8');
+const xml = readFileSync(path.join(__dirname, './reports/1110779471-20200721.rtf.sgn'), 'utf-8');
 const xmldoc = parse(xml);
 extract(xmldoc).then(buffer => console.log('payload:\n', buffer.toString()));
 ```
@@ -74,9 +75,10 @@ Verify signed XML envelope containing balance report
 
 ```javascript
 const { parse, verify } = require('@extensionengine/pbzcomnet-signedfile');
+const path = require('path');
 const { readFileSync } = require('fs');
 
-const xml = readFileSync('./reports/1110779471-20200721.rtf.sgn', 'utf-8');
+const xml = readFileSync(path.join(__dirname, './reports/1110779471-20200721.rtf.sgn'), 'utf-8');
 const xmldoc = parse(xml);
 const isVerified = verify(xmldoc);
 console.log('result:', isVerified);
