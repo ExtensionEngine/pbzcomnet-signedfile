@@ -1,6 +1,6 @@
 {
   "name": "@extensionengine/pbzcomnet-signedfile",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Extract & verify PBZCOM@NET balance reports",
   "keywords": [
     "balance report",
